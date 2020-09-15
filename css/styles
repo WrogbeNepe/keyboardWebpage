@@ -126,3 +126,147 @@ header {
   justify-content: center;
   margin-top: 3rem;
 }
+
+.quote-btn{
+  color: #FFFFFF;
+  background-color: #66B6D3;
+  font-size: 18px;
+  boarder: none;
+  padding: .8rem 3rem;
+  border-radius: 3px;
+  box-shadow: 0 5px 20px rgb(0,0,0,.3);
+}
+
+.section-header {
+  text-align: center;
+  padding: 6rem 0 4rem;
+}
+
+.portfolio-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  padding-left: 5rem;
+}
+
+.portfolio-text{
+  width: 290px;
+}
+
+.portfolio-object {
+   max-width: 350px;
+   margin: 1rem 0;
+}
+
+.portfolio-box{
+  width: 250px;
+  height: 250px;
+  background-color: #F1F3Fa;
+  transition: .2s ease-in-out;
+}
+
+.portfolio-box:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+form label {
+  font-size: 14px;
+}
+
+.form-group {
+  margin-bottom: .75rem;
+}
+
+.form-control {
+  max-width: 800px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #292b2c;
+  border-radius: 2px;
+  border: 1px solid #ced4da;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-clip: padding-box;
+  display: block;
+}
+
+.submit-btn-wrapper {
+  margin-top: 4rem;
+}
+
+@media (max-width: 768px) {
+  ul.topnav li a.nav-link {
+    display: none;
+  }
+
+  ul.topnav li.dropdownLink {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+
+  ul.topnav.responsive {
+    flex-direction:  column;
+    text-align: right;
+  }
+
+  ul.topnav.responsive li{
+    position: relative;
+    top: 30px;
+    right: 30px;
+  }
+
+  ul.topnav.responsive li a.nav-link {
+    display: block;
+    line-height: 2;
+  }
+
+  .media-object {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .icon-right,
+  .icon-left{
+    order: 1;
+  }
+
+  .blurb-wrapper-left,
+  .blurb-wrapper-right {
+    order: 2;
+    padding-top: 2rem;
+  }
+
+  .blurb-wrapper-left,
+  .icon-left {
+    padding-right: 12rem;
+  }
+
+  .portfolio-wrapper {
+    text-align: center;
+  }
+
+  .form-group{
+    display: flex;
+  }
+
+  .submit-btn-wrapper {
+    text-align: center;
+  }
+
+}
+
+@@media (max-width: 599px) {
+  .portfolio-wrapper{
+    justify-content: center;
+  }
+}
+
+.pAvatar {
+  width: 200px;
+  margin-bottom: 20px;
+}
